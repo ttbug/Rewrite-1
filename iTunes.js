@@ -27,6 +27,7 @@ const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"]
 const yearid = `${bundle_id}.year`;
 const yearlyid = `${bundle_id}.yearly`;
 const yearlysubscription = `${bundle_id}.yearlysubscription`;
+const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
   'co.vulcanlabs': { cm: 'timeb', hx: 'hxpda', id: lifetimeid, latest: "chxm1023" },  //vulcanlabs合集
