@@ -37,7 +37,7 @@ chxm1023 = {
     "lifelong" : true,
     "radexpired" : false,
     "dreamsUsed" : 0
-  },
+  }
 };
 
 $done({body : JSON.stringify(chxm1023)});
