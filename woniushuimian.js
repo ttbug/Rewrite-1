@@ -20,19 +20,24 @@ hostname = snailsleep.net
 
 var chxm1023 = JSON.parse($response.body);
 
-chxm1023.result = {
-  ...chxm1023.result,
-  "points" : 9999,
-  "updated" : 1684116994159,
-  "expired" : false,
-  "expiresRAD" : 4092599349000,
-  "expires" : 4092599349000,
-  "type" : "SNAIL",
-  "dreamsTotal" : 999,
-  "level" : 1,
-  "lifelong" : true,
-  "radexpired" : false,
-  "dreamsUsed" : 999
+chxm1023 = {
+  "status" : 200,
+  "message" : "OK",
+  "result" : {
+    "points" : 0,
+    "updated" : 1684116994159,
+    "expired" : false,
+    "expiresRAD" : 4092599349000,
+    "offerPeriod" : false,
+    "expires" : 4092599349000,
+    "type" : "SNAIL",
+    "dreamsTotal" : 10,
+    "level" : 1,
+    "unique" : "646195d5bc81021ffed65e71",
+    "lifelong" : true,
+    "radexpired" : false,
+    "dreamsUsed" : 0
+  },
 };
 
 $done({body : JSON.stringify(chxm1023)});
